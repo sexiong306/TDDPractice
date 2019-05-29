@@ -60,6 +60,10 @@
     XCTAssertTrue([self.testFizzBuzz isFizzBuzz: 45]);
 }
 
+- (void)testCountOff {
+    [self.testFizzBuzz countOff];
+}
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

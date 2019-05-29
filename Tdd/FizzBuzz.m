@@ -19,6 +19,12 @@
     return  self;
 }
 
+- (void)countOff{
+    for (int i= 1; i <= 100; i++) {
+        NSLog(@"%@", [self reportNumber:i]);
+    }
+}
+
 - (NSString *)reportNumber:(int)num{
     if ([self isFizzBuzz:num]) {
         return @"FizzBuzz";

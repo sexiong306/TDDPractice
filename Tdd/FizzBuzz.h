@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) int buzz;
 - (instancetype)initWithFizz:(int)fizz buzz:(int)buzz;
 
+- (void)countOff;
 - (NSString*)reportNumber:(int)num;
 - (BOOL)isFizz:(int)num;
 - (BOOL)isBuzz:(int)num;
