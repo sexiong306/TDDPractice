@@ -15,6 +15,8 @@
 		D667242C229D884600BAFAFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D667242B229D884600BAFAFC /* main.m */; };
 		D6672436229D884600BAFAFC /* TddTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6672435229D884600BAFAFC /* TddTests.m */; };
 		D6672441229D884600BAFAFC /* TddUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6672440229D884600BAFAFC /* TddUITests.m */; };
+		D6672450229D893E00BAFAFC /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = D667244F229D893E00BAFAFC /* FizzBuzz.m */; };
+		D6672451229D893E00BAFAFC /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = D667244F229D893E00BAFAFC /* FizzBuzz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D667243C229D884600BAFAFC /* TddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6672440229D884600BAFAFC /* TddUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TddUITests.m; sourceTree = "<group>"; };
 		D6672442229D884600BAFAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D667244E229D893E00BAFAFC /* FizzBuzz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
+		D667244F229D893E00BAFAFC /* FizzBuzz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				D6672427229D884600BAFAFC /* LaunchScreen.storyboard */,
 				D667242A229D884600BAFAFC /* Info.plist */,
 				D667242B229D884600BAFAFC /* main.m */,
+				D667244E229D893E00BAFAFC /* FizzBuzz.h */,
+				D667244F229D893E00BAFAFC /* FizzBuzz.m */,
 			);
 			path = Tdd;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				D6672421229D884400BAFAFC /* ViewController.m in Sources */,
 				D667242C229D884600BAFAFC /* main.m in Sources */,
 				D667241E229D884400BAFAFC /* AppDelegate.m in Sources */,
+				D6672450229D893E00BAFAFC /* FizzBuzz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6672436229D884600BAFAFC /* TddTests.m in Sources */,
+				D6672451229D893E00BAFAFC /* FizzBuzz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
